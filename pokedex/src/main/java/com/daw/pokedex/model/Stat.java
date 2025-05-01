@@ -1,0 +1,32 @@
+package com.daw.pokedex.model;
+
+public class Stat {
+    private String name;
+    private String url;
+
+    // Constructor
+    public Stat() {
+    }
+
+    public Stat(String name, String url) {
+        this.name = name;
+        this.url = url;
+    }
+
+    // Getters y setters
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+}
